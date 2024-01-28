@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en" xml:lang="en" xmlns= "http://www.w3.org/1999/xhtml">
+    <meta charset="UTF-8">
+    <meta name="google" content="notranslate">
+    <meta http-equiv="Content-Language" content="en">
+    <head>
+        <link type="text/css" rel="stylesheet" href="assets/style.css">
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
+        <title>SOP Test Quiz</title>
+    </head>
+    <body onLoad="main()">
+        <!--
+            python -m http.server 8000
+            # Todo:
+            [x] json list of questions and answers
+            [x] design basic card style (question + 4 buttons)
+            [x] start quiz screen
+            [x] button with number of questions for quiz
+            [x] random questions
+            [ ] buttons for each question
+            [ ] record answer / score and continue
+            [x] final screen with all questions / answers and score
+            [ ] score
+            [x] progress bar
+            [x] card style (cards against humanity style)
+            [ ] Replace questions with actual questions
+        -->
+        <div id="wrapper">
+            <div id="header">SOP Test Quiz</div>
+            <div id="main">
+            <!-- Main section -->
+
+                <!-- This will be replaced by javascript-->
+                <p class="javascript_warning">If you're seeing this text, either something went wrong, or javascript is disabled.</p>
+
+                <!-- This is the question card design -->
+                <!-- <table class="question_card">
+                    <thead>
+                        <tr>
+                            <th>
+                                <div id="question_counter">Question 1/10</div> 
+                                <div>This is the question. It's going to be a bit of text, thats why i'm typing some nonsense here. Please select the correct answer.</div>
+                            </th>
+                        </tr>
+                        <tr>
+                            <td><div id="progress_bar">&nbsp;</div></td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <div class="answer">This is answer 1. This is going to be a specific length</div>
+                                <div class="answer">This is answer 2. The length of this answer will be different from the first one.</div>
+                                <div class="answer">This is answer 3. It could be a short answer.<br/> Line</div>
+                                <div class="answer">This is answer 4. Who knows how long this answer will be.<br/> </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table> -->
+                <!-- End of question card design -->
+
+
+
+
+                <!-- This is the summary design -->
+                <!-- <table class="summary">
+                    <thead>
+                        <tr>
+                            <th>
+                                Score 6/10
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <div class="summary_question">This is the question. It's going to be a bit of text, thats why i'm typing some nonsense here. Please select the correct answer.</div> 
+                                <div class="summary_answer">This is answer 1. This is going to be a specific length</div>
+                                <div class="summary_answer summary_correct">This is answer 2. The length of this answer will be different from the first one.</div>
+                                <div class="summary_answer summary_provided">This is answer 3. It could be a short answer.</div>
+                                <div class="summary_answer">This is answer 4. Who knows how long this answer will be.</div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="summary_question">This is the question. It's going to be a bit of text, thats why i'm typing some nonsense here. Please select the correct answer.</div> 
+                                <div class="summary_answer">This is answer 1. This is going to be a specific length</div>
+                                <div class="summary_answer summary_correct summary_provided">This is answer 2. The length of this answer will be different from the first one.</div>
+                                <div class="summary_answer">This is answer 3. It could be a short answer.</div>
+                                <div class="summary_answer">This is answer 4. Who knows how long this answer will be.</div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="summary_question">This is the question. It's going to be a bit of text, thats why i'm typing some nonsense here. Please select the correct answer.</div> 
+                                <div class="summary_answer">This is answer 1. This is going to be a specific length</div>
+                                <div class="summary_answer">This is answer 2. The length of this answer will be different from the first one.</div>
+                                <div class="summary_answer summary_provided summary_correct">This is answer 3. It could be a short answer.</div>
+                                <div class="summary_answer">This is answer 4. Who knows how long this answer will be.</div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table> -->
+                <!-- End of summary design -->
+
+
+
+
+                <!-- This is the Start screen design -->
+                <!-- <table class="start_screen">
+                    <thead>
+                        <tr>
+                            <th>Welcome to the SOP Test Quiz</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <div class="start_screen_text">
+                                    Use this test quiz to practice as much as you want.<br/> 
+                                    The test consists of &lt;10&gt; random questions
+                                </div>
+                                <div class="start_screen_text">After finishing the quiz you score will be presented on screen, and you will have the chance to review your answers. If there are any issues please contact me.</div>
+                                <div class="start_screen_text">Enabling the timer will put a &lt;10&gt; second time limit on each question. <br/>Click "Start" to start the quiz.</div>
+                                <div class="start_screen_text">
+                                    <input type="checkbox" class="largercheckbox" name="timed" checked/> Timed 
+                                    | Start</div>  
+                            </td>
+                        </tr>
+                    </tbody>
+                </table> -->
+                <!-- End of Start screen design -->
+            
+
+
+
+            <!-- End of main section -->
+            </div>
+            <!-- Footer section -->
+            <div id="footer">Designed by OxymoRonald</div>
+            <script type="text/javascript" src="assets/jquery-3.7.1.min.js"></script>
+            <script type="text/javascript" src="assets/ems_quiz.js"></script>
+        </div>
+    </body>
+</html>
