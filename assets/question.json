@@ -1,7 +1,7 @@
 {
     "questions":[
         {
-            "question":"What is call order (codes) from most to least important?",
+            "question":"What is call order (codes) from most important to least important?",
             "options":[
                 "13A, 13B, 14A, 14B, 52, 911",
                 "14A, 13A, 14B, 13B, 52, 911",
@@ -30,7 +30,7 @@
             "answer": 1
         },
         {
-            "question":"Which radio channel do we use to communicate with Doctors?",
+            "question":"Which radio channel do we (EMS) use to communicate with Doctors?",
             "options":[
                 "Channel 2",
                 "Channel 6",

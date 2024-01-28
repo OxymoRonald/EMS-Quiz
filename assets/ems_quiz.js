@@ -6,7 +6,7 @@
 
 
 // Some variables
-var quizQuestionAmount = 5;
+var quizQuestionAmount = 10;
 var quizSeconds = 5;
 // Array for all questions
 var allQuestions = new Array();
@@ -22,6 +22,12 @@ function main(){
         console.log("JSON loaded");
         // console.log("All questions");
         // console.log(allQuestions);
+
+        // Make sure number of questions in quiz don't exceed total number of available questions
+        if(quizQuestionAmount > allQuestions.length){
+            quizQuestionAmount = allQuestions.length
+        };
+
         // Call start screen
         startScreen();
     })
