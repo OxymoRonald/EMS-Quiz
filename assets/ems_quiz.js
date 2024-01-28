@@ -6,7 +6,7 @@
 
 
 // Some variables
-var quizQuestionAmount = 10;
+var quizQuestionAmount = 5;
 var quizSeconds = 5;
 // Array for all questions
 var allQuestions = new Array();
@@ -246,7 +246,7 @@ function displayScore(questions, answers){
             mainTable += "</div>";
 
         };
-        
+
         mainTable += "</td></tr>";
 
         i++;
