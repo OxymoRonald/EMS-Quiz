@@ -222,7 +222,7 @@ function displayScore(questions, answers){
 
         mainTable += "<tr><td>";
         // Display question
-        mainTable += "<div class='summary_question'>" + i + ": " + question['question'] + "</div>";
+        mainTable += "<div class='summary_question'>" + question['question'] + "</div>";
         // Display answers
         for(answer in question['options']){
             // mainTable += "<div class='summary_answer'>" + question['options'][answer] + "</div>";
