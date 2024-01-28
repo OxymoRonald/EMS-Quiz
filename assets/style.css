@@ -37,13 +37,24 @@ body {
     flex-shrink: 1,
     flex-basis: auto
     */
+    /* background-color: red; */
+    height:100px;
     font-size: 48px;
-    padding: 20px;
-    padding-bottom: 30px;
+    padding: 10px;
+    padding-top: 20px;
+    /* padding-bottom: 20px; */
     text-align: center;
+    vertical-align: middle;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
 }
+
+    #header img{
+        height:100px;
+        /* float: middle; */
+        margin-top: -10px;
+        vertical-align: middle;
+    }
 
 #main{
     flex: 1 1 auto;
