@@ -49,6 +49,16 @@
             "answer": 4
         },
         {
+            "question":"What is used to treat a non opioid overdose?",
+            "options":[
+                "Epipen (Epinephrine)",
+                "Charcoal Tablets",
+                "Narcan",
+                "Insuline"
+            ],
+            "answer": 2
+        },
+        {
             "question":"Which 10 code indicates you've \"arrived at the scene\"?",
             "options":[
                 "23",
@@ -194,34 +204,44 @@
             "answer": 4
         },
         {
-            "question":"Which of the following medications are you NOT allowed to administer as an EMT?",
+            "question":"Which of the following medications are you <I><U><B>NOT</B></U></I> allowed to administer as an EMT?",
             "options":[
-                "Epinephrine",
-                "Morphine",
-                "Naloxone (Narcan)",
-                "Midazolam"
+                "Epinephrine (Increase cardiac output during cardiac arrest)",
+                "Morphine (Treats severe pain used with compound fractures / major trauma)",
+                "Naloxone (Narcan)(Treats opioid overdose)",
+                "Midazolam (Induces sedation, used with seizures)"
             ],
             "answer": 2
         },
         {
-            "question":"Which of the following medications are you NOT allowed to administer as an EMT?",
+            "question":"Which of the following medications are you <I><U><B>NOT</B></U></I> allowed to administer as an EMT?",
             "options":[
-                "Insulin",
-                "Epinephrine",
-                "Lidocaine",
-                "Naloxone (Narcan)"
+                "Insulin (Treats high blood sugar in diabetics)",
+                "Epinephrine (Increase cardiac output during cardiac arrest)",
+                "Lidocaine (For treating dislocated limbs)",
+                "Naloxone (Narcan)(Treats opioid overdose)"
             ],
             "answer": 3
         },
         {
-            "question":"Which of the following medications are you NOT allowed to administer as an EMT?",
+            "question":"Which of the following medications are you <I><U><B>NOT</B></U></I> allowed to administer as an EMT?",
             "options":[
-                "Midazolam",
-                "Insulin",
-                "Epinephrine",
-                "Fentanyl"
+                "Midazolam (Induces sedation, used with seizures)",
+                "Insulin (Treats high blood sugar in diabetics)",
+                "Epinephrine (Increase cardiac output during cardiac arrest)",
+                "Fentanyl (Treat severe pain)"
             ],
             "answer": 4
+        },
+        {
+            "question":"What type of questions would you ask in the case of dizziness / confusion / head injury?",
+            "options":[
+                "Names of things, What month/year it is, Year of birth",
+                "What city they are in, What month/year it is, To name 3 farm animals",
+                "Year of birth, Colors of things, To name 3 farm animals",
+                "What city they are in, Colors of things, Year of birth"
+            ],
+            "answer": 2
         }
     ]
 }
