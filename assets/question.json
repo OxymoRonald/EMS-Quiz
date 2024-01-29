@@ -206,30 +206,30 @@
         {
             "question":"Which of the following medications are you <I><U><B>NOT</B></U></I> allowed to administer as an EMT?",
             "options":[
-                "Epinephrine (Increase cardiac output during cardiac arrest)",
-                "Morphine (Treats severe pain used with compound fractures / major trauma)",
-                "Naloxone (Narcan)(Treats opioid overdose)",
-                "Midazolam (Induces sedation, used with seizures)"
+                "Epinephrine - Increase cardiac output during cardiac arrest",
+                "Morphine - Treats severe pain used with compound fractures / major trauma",
+                "Naloxone (Narcan) - Treats opioid overdose",
+                "Midazolam - Induces sedation, used with seizures"
             ],
             "answer": 2
         },
         {
             "question":"Which of the following medications are you <I><U><B>NOT</B></U></I> allowed to administer as an EMT?",
             "options":[
-                "Insulin (Treats high blood sugar in diabetics)",
-                "Epinephrine (Increase cardiac output during cardiac arrest)",
-                "Lidocaine (For treating dislocated limbs)",
-                "Naloxone (Narcan)(Treats opioid overdose)"
+                "Insulin - Treats high blood sugar in diabetics",
+                "Epinephrine - Increase cardiac output during cardiac arrest",
+                "Lidocaine - For treating dislocated limbs",
+                "Naloxone (Narcan) - Treats opioid overdose"
             ],
             "answer": 3
         },
         {
             "question":"Which of the following medications are you <I><U><B>NOT</B></U></I> allowed to administer as an EMT?",
             "options":[
-                "Midazolam (Induces sedation, used with seizures)",
-                "Insulin (Treats high blood sugar in diabetics)",
-                "Epinephrine (Increase cardiac output during cardiac arrest)",
-                "Fentanyl (Treat severe pain)"
+                "Midazolam - Induces sedation, used with seizures",
+                "Insulin - Treats high blood sugar in diabetics",
+                "Epinephrine - Increase cardiac output during cardiac arrest",
+                "Fentanyl - Treat severe pain"
             ],
             "answer": 4
         },
@@ -242,6 +242,16 @@
                 "What city they are in, Colors of things, Year of birth"
             ],
             "answer": 2
+        },
+        {
+            "question":"Which equipment are you <I><U><B>NOT</B></U></I> allowed to use as a trainee?",
+            "options":[
+                "Bag Valve Mask (BVM) - Utilized if a patient is not able to breathe on their own.",
+                "Suction machine - Used to remove blockage if the airway is blocked with blood or vomit.",
+                "Defib (AED) - Used if a patient's heart is not beating at all. Automatically detects if it should shock the heart.",
+                "LUCAS (Auto CPR) - Used if a patient needs CPR during transport or needs further medical intervention on scene."
+            ],
+            "answer": 1
         }
     ]
 }
