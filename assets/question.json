@@ -248,7 +248,7 @@
             "options":[
                 "Bag Valve Mask (BVM) - Utilized if a patient is not able to breathe on their own.",
                 "Suction machine - Used to remove blockage if the airway is blocked with blood or vomit.",
-                "Defib (AED) - Used if a patient's heart is not beating at all. Automatically detects if it should shock the heart.",
+                "Defibrilator (AED) - Used if a patient's heart is not beating at all. Automatically detects if it should shock the heart.",
                 "LUCAS (Auto CPR) - Used if a patient needs CPR during transport or needs further medical intervention on scene."
             ],
             "answer": 1
