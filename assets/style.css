@@ -5,6 +5,7 @@
 
 :root{
     --text_color:rgb(240, 240, 240);
+    --semi_black:rgba(0, 0, 0, .7);
     --border_radius:15px;
 }
 
@@ -73,7 +74,7 @@ body {
     width: 440px;
     height: 600px;
     border-radius: var(--border_radius);
-    box-shadow: 0 0 20px rgba(0, 0, 0, .8);
+    box-shadow: 0 0 20px rgba(0, 0, 0, .7);
 }
 
 .question_card thead{
@@ -81,7 +82,7 @@ body {
 }
 
     .question_card thead th{
-        background-color: black;
+        background-color: rgba(0, 0, 0, 0.7);
         padding:20px;
         padding-top: 15px;
         font-size: 32px;
@@ -101,7 +102,7 @@ body {
     .question_card thead td{
         height:10px;
         font-size: 1px;
-        background-color: black;
+        background-color: rgba(187, 0, 0, 0.9);
     }
 
         #progress_bar{
@@ -117,7 +118,7 @@ body {
 }
 
     .question_card tbody td{
-        background-color: white;
+        background-color: rgba(255, 255, 255, 0.9);
         padding:5px;
         padding-top:5px;
         padding-bottom:0px;
@@ -148,32 +149,33 @@ body {
     margin:0px auto;
     width: 800px;
     border-radius: var(--border_radius);
-    box-shadow: 0 0 20px rgba(0, 0, 0, .8);
-    background-color: black;
+    box-shadow: 0 0 20px var(--semi_black);
+    background-color: var(--semi_black);
 }
 
     .summary thead th{
         font-size: 28px;
-        background-color: black;
+        /* background-color: var(--semi_black); */
         border-top-left-radius: var(--border_radius);
         border-top-right-radius: var(--border_radius);
     }
 
     .summary tbody td{
         padding: 8px;
-        background-color: gray;
+        background-color: rgba(128, 128, 128, 0.8);
         border-radius: var(--border_radius);
     }
 
     .summary_question{
-        border-bottom: 2px solid rgb(255, 255, 255);
+        border-bottom: 2px solid rgba(255, 255, 255, 0.8);
         font-family: Arial, Helvetica, sans-serif;
         font-size:18px;
+        color:var(--text_color);
         padding-bottom:3px;
     }
 
     .summary_answer{
-        background-color:rgb(207, 207, 207);
+        background-color:rgba(207, 207, 207, 0.8);
         padding:5px;
         margin-top:5px;
         border-radius: 10px;
@@ -186,6 +188,7 @@ body {
 
         .summary_correct{
             background-color: rgb(0, 187, 0);
+            font-weight: bold;
         }
 
 .start_screen{
@@ -194,15 +197,14 @@ body {
     margin:0px auto;
     width: 800px;
     border-radius: var(--border_radius);
-    box-shadow: 0 0 20px rgba(0, 0, 0, .8);
-    background-color: black;
+    box-shadow: 0 0 20px var(--semi_black);
+    background-color: var(--semi_black);
 }
 
     .start_screen thead th{
         font-size: 28px;
         padding:15px;
         padding-bottom: 10px;
-        background-color: black;
         border-top-left-radius: var(--border_radius);
         border-top-right-radius: var(--border_radius);
     }
@@ -213,7 +215,7 @@ body {
     }
 
     .start_screen_text{
-        background-color:rgb(158, 192, 255);
+        background-color:rgba(158, 192, 255, 0.8);
         font-size: 18px;
         text-align: center;
         padding:10px;
@@ -235,5 +237,5 @@ body {
     }
 
     button.startbutton:hover{
-        background-color: rgb(60, 151, 255);
+        background-color: rgba(60, 151, 255, 0.88);
     }
