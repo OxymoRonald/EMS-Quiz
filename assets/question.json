@@ -142,6 +142,86 @@
                 "Code 6"
             ],
             "answer": 5
+        },
+        {
+            "question":"When triaging what does the classification \"green\" mean?",
+            "options":[
+                "Needs hospital care, but is stable. Transport needed.",
+                "Stable and walking. No transport required.",
+                "A doctor's care is not required. At home treatment and first aid is sufficient. No transport required.",
+                "Expectant or deceased. Are treated last if DOA. Transport required."
+            ],
+            "answer": 2
+        },
+        {
+            "question":"When triaging what does the classification \"yellow\" mean?",
+            "options":[
+                "Critical. Needs immediate surgery or life-saving intervention. Likely to survive with immediate treatment. Transport needed.",
+                "Needs hospital care, but is stable. Transport needed.",
+                "Stable and walking. No transport required.",
+                "Expectant or deceased. Are treated last if DOA. Transport required."
+            ],
+            "answer": 2
+        },
+        {
+            "question":"When triaging what does the classification \"red\" mean?",
+            "options":[
+                "Critical. Needs immediate surgery or life-saving intervention. Likely to survive with immediate treatment. Transport needed.",
+                "Needs hospital care, but is stable. Transport needed.",
+                "Stable and walking. No transport required.",
+                "Expectant or deceased. Are treated last if DOA. Transport required."
+            ],
+            "answer": 1
+        },
+        {
+            "question":"When triaging what does the classification \"white\" mean?",
+            "options":[
+                "Critical. Needs immediate surgery or life-saving intervention. Likely to survive with immediate treatment. Transport needed.",
+                "Needs hospital care, but is stable. Transport needed.",
+                "Stable and walking. No transport required.",
+                "A doctor's care is not required. At home treatment and first aid is sufficient. No transport required."
+            ],
+            "answer": 4
+        },
+        {
+            "question":"When triaging what does the classification \"black\" mean?",
+            "options":[
+                "Critical. Needs immediate surgery or life-saving intervention. Likely to survive with immediate treatment. Transport needed.",
+                "Needs hospital care, but is stable. Transport needed.",
+                "A doctor's care is not required. At home treatment and first aid is sufficient. No transport required.",
+                "Expectant or deceased. Are treated last if DOA. Transport required."
+            ],
+            "answer": 4
+        },
+        {
+            "question":"Which of the following medications are you NOT allowed to administer as an EMT?",
+            "options":[
+                "Epinephrine",
+                "Morphine",
+                "Naloxone (Narcan)",
+                "Midazolam"
+            ],
+            "answer": 2
+        },
+        {
+            "question":"Which of the following medications are you NOT allowed to administer as an EMT?",
+            "options":[
+                "Insulin",
+                "Epinephrine",
+                "Lidocaine",
+                "Naloxone (Narcan)"
+            ],
+            "answer": 3
+        },
+        {
+            "question":"Which of the following medications are you NOT allowed to administer as an EMT?",
+            "options":[
+                "Midazolam",
+                "Insulin",
+                "Epinephrine",
+                "Fentanyl"
+            ],
+            "answer": 4
         }
     ]
 }
