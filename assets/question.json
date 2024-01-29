@@ -3,10 +3,10 @@
         {
             "question":"What is call order (codes) from most important to least important?",
             "options":[
-                "13A, 13B, 14A, 14B, 52, 911",
-                "14A, 13A, 14B, 13B, 52, 911",
-                "14A, 14B, 13A, 13B, 52, 911",
-                "13A, 14A, 13B, 14B, 52, 911"
+                "13A, 13B, 14A, 14B, 52, 911, 47",
+                "14A, 13A, 14B, 13B, 52, 911, 47",
+                "14A, 14B, 13A, 13B, 52, 911, 47",
+                "13A, 14A, 13B, 14B, 52, 911, 47"
             ],
             "answer": 3
         },
@@ -47,6 +47,101 @@
                 "Narcan"
             ],
             "answer": 4
+        },
+        {
+            "question":"Which 10 code indicates you've \"arrived at the scene\"?",
+            "options":[
+                "23",
+                "47",
+                "54",
+                "76"
+            ],
+            "answer": 1
+        },
+        {
+            "question":"Which 10 code indicates there's an \"injured person\"?",
+            "options":[
+                "23",
+                "47",
+                "54",
+                "76"
+            ],
+            "answer": 2
+        },
+        {
+            "question":"Which 10 code indicates that there's \"livestock on highway\"?",
+            "options":[
+                "23",
+                "47",
+                "54",
+                "76"
+            ],
+            "answer": 3
+        },
+        {
+            "question":"Which 10 code indicates you're \"en route\" to a location?",
+            "options":[
+                "23",
+                "47",
+                "54",
+                "76"
+            ],
+            "answer": 4
+        },
+        {
+            "question":"Which (driving) code is corresponds with \"Respond to the call without emergency lights and sirens\"?",
+            "options":[
+                "Code 1",
+                "Code 2",
+                "Code 3",
+                "Code 4",
+                "Code 6"
+            ],
+            "answer": 1
+        },
+        {
+            "question":"Which (driving) code is corresponds with \"Respond to the call with emergency lights, but without sirens. (Sirens may be used if necessary, such as to make traffic yield or when going through intersections)\"?",
+            "options":[
+                "Code 1",
+                "Code 2",
+                "Code 3",
+                "Code 4",
+                "Code 6"
+            ],
+            "answer": 2
+        },
+        {
+            "question":"Which (driving) code is corresponds with \"Respond to the call using emergency lights and sirens\"?",
+            "options":[
+                "Code 1",
+                "Code 2",
+                "Code 3",
+                "Code 4",
+                "Code 6"
+            ],
+            "answer": 3
+        },
+        {
+            "question":"Which code is used to signal the \"All clear\"?",
+            "options":[
+                "Code 1",
+                "Code 2",
+                "Code 3",
+                "Code 4",
+                "Code 6"
+            ],
+            "answer": 4
+        },
+        {
+            "question":"Which code is used to indicate someone is \"Investigating the area\"?",
+            "options":[
+                "Code 1",
+                "Code 2",
+                "Code 3",
+                "Code 4",
+                "Code 6"
+            ],
+            "answer": 5
         }
     ]
 }
