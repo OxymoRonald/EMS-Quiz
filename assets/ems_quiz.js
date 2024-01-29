@@ -46,7 +46,7 @@ function startScreen(){
     mainTable += "</tr></thead>";
     mainTable += "<tbody><tr><td>";
     mainTable += "<div class='start_screen_text'>This test is meant to be used for GTA-RP</div>";
-    mainTable += "<div class='start_screen_text'>Use this test quiz to practice as much as you want.<br/> The test consists of " + quizQuestionAmount + " random questions</div>";
+    mainTable += "<div class='start_screen_text'>Use this test quiz to practice as much as you want.<br/> The test consists of " + quizQuestionAmount + " random questions.<br/>Select the best answer among the available options options.</div>";
     mainTable += "<div class='start_screen_text'>After finishing the quiz your score will be presented on screen, and you will have the chance to review your answers. If there are any technical issues please contact me.</div>";
     // mainTable += "<div class='start_screen_text'>Enabling the timer will put a " + quizSeconds + " second time limit on each question. <br/>Click 'Start' to start the quiz.</div>";
     mainTable += "<div class='start_screen_text'>Click 'Start' to start the quiz.</div>";
