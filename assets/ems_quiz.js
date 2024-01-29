@@ -20,8 +20,6 @@ function main(){
     })
     .done(function(){
         console.log("JSON loaded");
-        // console.log("All questions");
-        // console.log(allQuestions);
 
         // Make sure number of questions in quiz don't exceed total number of available questions
         if(quizQuestionAmount > allQuestions.length){
@@ -108,7 +106,6 @@ function runQuiz(questions){
     
     console.log("Run quiz questions");
     console.log(questions);
-    // console.log(questions.length)
 
     // Array to store answers
     answers = new Array();
@@ -147,20 +144,16 @@ function runQuiz(questions){
         // Populate answers
         for(answer in question.options){
             id = parseInt(answer) + 1;
-            // mainTable += "<div class='answer' value='testanswer'>" + id + ": " + question.options[answer] + "</div>";
             mainTable += "<div class='answer' value='testanswer'>" + question.options[answer] + "</div>";
         }
         mainTable += "</td></tr></tbody>";
         mainTable += "</table>";
-        // mainTable += "Question: >>" + question.question + "<<";
 
         // Replace element
         document.getElementById("main").innerHTML = mainTable;
 
         $(".answer").click(function(event) {
-            // alert("Clicky");
             // Register questions and answer
-            // alert($(event.target).text());
             answers.push($(event.target).text());
 
             // Get next question / score
@@ -183,13 +176,6 @@ function displayScore(questions, answers){
     i = 0;
     while(i < questions.length){
         question = questions[i];
-
-        // console.log("Answer given");
-        // console.log(question);
-        // console.log(answers[i]);
-
-        // Get index of answer given
-        // console.log(question['options'].indexOf(answers[i]));
 
         // If provided answer (index+1) == question answer, up the score
         if(question['options'].indexOf(answers[i]) + 1 == question['answer']){
@@ -225,12 +211,9 @@ function displayScore(questions, answers){
         mainTable += "<div class='summary_question'>" + question['question'] + "</div>";
         // Display answers
         for(answer in question['options']){
-            // mainTable += "<div class='summary_answer'>" + question['options'][answer] + "</div>";
 
             // Assign proper CSS classes
             mainTable += "<div class='summary_answer";
-
-            // console.log(parseInt(answer) + 1);
 
             // Check if correct answer
             if(parseInt(answer) + 1 == question['answer']){
@@ -265,10 +248,5 @@ function displayScore(questions, answers){
 
     // Replace element
     document.getElementById("main").innerHTML = mainTable;
-    // document.getElementById("main").innerHTML = "Score2";
-
-    // console.log("Scoreboard");
-    // console.log(questions);
-    // console.log(answers);
 
 };
