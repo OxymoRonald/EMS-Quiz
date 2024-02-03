@@ -10,4 +10,5 @@ https://oxymoronald.github.io/EMS-Quiz/
 - [x] Sample questions
 - [ ] Descriptions for answers
 - [ ] Questions on each SOP topic
+- [ ] Add timer option for questions
 - [ ] Code cleanup 
