@@ -42,7 +42,7 @@ function startScreen(){
 
     mainTable += "<table class='start_screen'>";
     mainTable += "<thead><tr>";
-    mainTable += "<th>Welcome to the SOP Test Quiz</th>";
+    mainTable += "<th>Welcome to the SOP Practice Quiz</th>";
     mainTable += "</tr></thead>";
     mainTable += "<tbody><tr><td>";
     mainTable += "<div class='start_screen_text'>This test is meant to be used for GTA-RP</div>";
