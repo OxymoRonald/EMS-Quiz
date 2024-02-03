@@ -9,6 +9,6 @@ https://oxymoronald.github.io/EMS-Quiz/
 - [x] Working quiz (javascript)
 - [x] Sample questions
 - [ ] Descriptions for answers
-- [ ] Questions on each SOP topic
+- [ ] Questions on each SOP sections
 - [ ] Add timer option for questions
 - [ ] Code cleanup 
